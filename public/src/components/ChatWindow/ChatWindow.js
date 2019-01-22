@@ -13,7 +13,8 @@ export default class ChatWindow extends Component {
     super();
     this.state = {
       messages: [],
-      text: ''
+      text: '',
+      name: 'Dallin'
     };
 
     this.handleChange = this.handleChange.bind( this );
